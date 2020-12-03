@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://unpkg.com/vue"></script>
+    <meta charset="UTF-8">
+    <title>Jaketopia</title>
+    <link rel="stylesheet" href="css/styles.css" media="screen">
+</head>
+<body>
+<header>
+    <h1>My Education History</h1>
+</header>
+<section>
+    <button type="button" onclick="fetchData()">Fetch Data</button>
+</section>
+<div id="dataTable">
+    <table>
+        <tr>
+            <th>School</th>
+            <th>Major</th>
+            <th>Degree</th>
+            <th>Grad Year</th>
+        </tr>
+        <tr v-for="e in collegeCareer">
+            <td>{{ e.school }}</td>
+            <td>{{ e.major }}</td>
+            <td>{{ e.degree }}</td>
+            <td>{{ e.grad_year }}</td>
+        </tr>
+    </table>
+</div>
+<script src="js/jsonParser.js"></script>
+</body>
+</html>

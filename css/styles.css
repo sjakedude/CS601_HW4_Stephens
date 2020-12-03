@@ -1,0 +1,41 @@
+body {
+    background-color: lightsalmon;
+}
+
+header h1 {
+    margin-top: 15px;
+    text-align: center;
+    color: blue;
+    font-style: italic;
+}
+
+section button {
+    margin-left: 50%;
+    transform: translateX(-50px);
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    color: red;
+    background-color: greenyellow;
+}
+
+#dataTable {
+    height: 500px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 20px;
+    border: 15px solid greenyellow;
+}
+
+#dataTable table tr th {
+    font-size: 30px;
+    padding: 45px;
+    margin: 1px;
+}
+
+#dataTable table tr td {
+    font-size: 20px;
+    padding: 40px;
+    color: blue;
+}
