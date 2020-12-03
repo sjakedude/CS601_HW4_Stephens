@@ -14,7 +14,7 @@ function fetchData() {
     }
     // Create the http get request and send it
     const httpRequest = new XMLHttpRequest();
-    httpRequest.open("GET", "https://sjakedude.github.io/CS601_HW4_Stephens/data/education.json", true);
+    httpRequest.open("GET", "data/education.json", true);
     httpRequest.send();
     // As soon as we receive a response, process it
     httpRequest.onreadystatechange = function() {

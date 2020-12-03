@@ -21,21 +21,27 @@ section button {
 }
 
 #dataTable {
-    height: 500px;
+    height: 400px;
     margin-left: 300px;
     margin-right: 300px;
     margin-top: 20px;
     border: 15px solid greenyellow;
 }
 
-#dataTable table tr th {
-    font-size: 30px;
-    padding: 45px;
-    margin: 1px;
+#dataTable table {
+    width: 100%;
 }
 
-#dataTable table tr td {
+#dataTable table th {
+    font-size: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 25%;
+}
+
+#dataTable table td {
     font-size: 20px;
-    padding: 40px;
+    padding-top: 85px;
+    padding-left: 30px;
     color: blue;
 }
